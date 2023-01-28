@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
   res.redirect("/ping");
 });
 
+   
 app.get("/ping", (req, res) => {
   res.ok({ message: "Aapka sawgat hai tarang ke server par" });
 });
