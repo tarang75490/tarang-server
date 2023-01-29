@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
    
 app.get("/ping", (req, res) => {
-  res.ok({ message: "Aapka sawgat hai tarang ke server par" });
+  res.send({ message: "Aapka sawgat hai tarang ke server par" });
 });
 
 app.listen(port, () => {
